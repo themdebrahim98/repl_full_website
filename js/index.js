@@ -8,12 +8,12 @@ function myFunction(x) {
     if (y.style.top === "-100vh") {
 
         y.style.top = 0;
-        console.log("dfvad");
+     
     }
     else {
 
         y.style.top = "-100vh";
-        console.log("fvdfv");
+       
 
     }
 
