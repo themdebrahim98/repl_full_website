@@ -1,12 +1,22 @@
 let y = document.getElementById('move-to');
-y.style.top="-100vh";
+y.style.top = "-100vh";
+
+
 function myFunction(x) {
+
     x.classList.toggle("change");
-    if(y.style.top === "-100vh")
-        y.style.top=0;
-    else
-        y.style.top="-100vh";
-    
+    if (y.style.top === "-100vh") {
+
+        y.style.top = 0;
+        console.log("dfvad");
+    }
+    else {
+
+        y.style.top = "-100vh";
+        console.log("fvdfv");
+
+    }
+
 }
 
 let text = document.getElementById('text');
@@ -34,20 +44,19 @@ window.addEventListener('scroll', function () {
 
 
 const inputs = document.querySelectorAll('.input');
-function focusFun(){
+function focusFun() {
     let parent = this.parentNode;
     parent.classList.add('focus');
 }
 
-function blurFun(){
+function blurFun() {
     let parent = this.parentNode;
-    if(this.value=="")
-    {
+    if (this.value == "") {
         parent.classList.remove('focus');
     }
 }
 
-inputs.forEach ((input) =>{
+inputs.forEach((input) => {
     input.addEventListener('focus', focusFun);
     input.addEventListener('blur', blurFun);
 })

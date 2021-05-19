@@ -1,40 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Repl-Contact</title>
-    <link rel="stylesheet" href="css/index.css" />
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-  </head>
-  <body>
-      <div class="container">
-        <div id="header">
-            <div class="logo">
-                <img src="photos/logo.png" alt="logo">
-                <a href="#">R E P L</a>
-            </div>
-            <ul id="move-to">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="project.html">Project</a></li>
-                <li><a href="contact.html"  class="active">Contact</a></li>
-            </ul>
-            <div id="ber" onclick="myFunction(this)">
-                <div class="l1"></div>
-                <div class="l2"></div>
-                <div class="l3"></div>
-            </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Repl-Contact</title>
+  <link rel="stylesheet" href="css/index.css" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+  <div class="container">
+    <div id="header">
+      <div class="logo">
+        <img src="photos/logo.png" alt="logo">
+        <a href="#">R E P L</a>
+      </div>
+      <ul id="move-to">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="project.html">Project</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+      <div id="ber" onclick="myFunction(this)">
+        <div class="l1"></div>
+        <div class="l2"></div>
+        <div class="l3"></div>
+      </div>
+    </div>
+    <div class="form">
+      <div class="contact-info">
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.5364405407695!2d88.41514321479247!3d22.596434685170458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0275c718a01a0d%3A0x5db3ee28f1b792d5!2sMaulana%20Abul%20Kalam%20Azad%20University%20of%20Technology%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1621324628279!5m2!1sen!2sin"
+            width="100%" height="200px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
-      <div class="form">
-        <div class="contact-info">
-          <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.5364405407695!2d88.41514321479247!3d22.596434685170458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0275c718a01a0d%3A0x5db3ee28f1b792d5!2sMaulana%20Abul%20Kalam%20Azad%20University%20of%20Technology%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1621324628279!5m2!1sen!2sin" width="100%" height="200px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-          </div>
-          <div class=contact-box>
+        <div class=contact-box>
           <h3 class="title">Let's get in touch.</h3>
-          <p class="text">Lorem ipsum dolor  corrupti quia voluptas distinctio molestias maiores repellat inventore illo, eligendi est aut labore  ex iure.</p>
+          <p class="text">Lorem ipsum dolor corrupti quia voluptas distinctio molestias maiores repellat inventore illo,
+            eligendi est aut labore ex iure.</p>
           <div class="info">
             <div class="information">
               <p class='icon'><i class="fal fa-map-marked-alt"></i></i></i></i></p>
@@ -49,89 +55,94 @@
               <p>9771298843</p>
             </div>
           </div>
-          </div>
-          
-          <!-- <h4>Contact with Us: </h4>
-           -->
         </div>
-        <div class="contact-form">
-          <span class="circle one"></span>
-          <span class="circle two"></span>
 
-          <form action="index.html">
-            <h3 class="title">Contact Us</h3>
-            <div class="input-container">
-              <input type="text" name="name" class="input" />
-              <label for="">Username</label>
-              <span>Username</span>
-            </div>
-            <div class="input-container">
-              <input type="email" name="email" class="input" />
-              <label for="">Email</label>
-              <span>Email</span>
-            </div>
-            <div class="input-container">
-              <input type="tel" name="phone" class="input" />
-              <label for="">Phone</label>
-              <span>Phone</span>
-            </div>
-            <div class="input-container textarea">
-              <textarea name="massaeg" class="input"></textarea>
-              <label for="">Massage</label>
-              <span>Massage</span>
-            </div>
-            <input type="submit" value="send" class="btn" />
-          </form>
+        <!-- <h4>Contact with Us: </h4>
+           -->
+      </div>
+      <div class="contact-form">
+        <span class="circle one"></span>
+        <span class="circle two"></span>
+
+        <form action="index.html">
+          <h3 class="title">Contact Us</h3>
+          <div class="input-container">
+            <input type="text" name="name" class="input" />
+            <label for="">Username</label>
+            <span>Username</span>
+          </div>
+          <div class="input-container">
+            <input type="email" name="email" class="input" />
+            <label for="">Email</label>
+            <span>Email</span>
+          </div>
+          <div class="input-container">
+            <input type="tel" name="phone" class="input" />
+            <label for="">Phone</label>
+            <span>Phone</span>
+          </div>
+          <div class="input-container textarea">
+            <textarea name="massaeg" class="input"></textarea>
+            <label for="">Massage</label>
+            <span>Massage</span>
+          </div>
+          <input type="submit" value="send" class="btn" />
+        </form>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-boxes">
+        <div class="footer-box">
+          <h3>More about us</h3>
+          <p>See Our Member List</p>
+          <p>Contact members</p>
+          <p>Our projexts</p>
+          <p>Our other development community</p>
+          <p>Login/Logout</p>
+
+        </div>
+        <div class="footer-box">
+          <h3>How to join</h3>
+          <p>Guidlines for joining us</p>
+          <p>Upcomming exams</p>
+          <p>Download you certificate</p>
+        </div>
+        <div class="footer-box useful">
+          <h3>Useful links</h3>
+          <a href="index.html" class="active">Home</a>
+          <a href="about.html">About</a>
+          <a href="project.html">Project</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-box">
+          <h3>contact</h3>
+          <p>makaut boys hostel, w.b</p>
+          <p>repldevelopment@gmail.com</p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.7987442923986!2d88.54100141479951!3d22.957637884985957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f8bf5871a9e0d7%3A0x3cbdf3b9f157e355!2sMAKAUT%20MAIN%20CAMPUS!5e0!3m2!1sen!2sin!4v1620180263784!5m2!1sen!2sin"
+            style="border:0;" allowfullscreen="" loading="lazy" class=map></iframe>
         </div>
       </div>
-
-        <footer class="footer">
-            <div class="footer-boxes">
-                <div class="footer-box">
-                <h3>More about us</h3>
-                <p>See Our Member List</p>
-                <p>Contact members</p>
-                <p>Our projexts</p>
-                <p>Our other development community</p>
-                <p>Login/Logout</p>
-
-            </div>
-            <div class="footer-box">
-                <h3>How to join</h3>
-                <p>Guidlines for joining us</p>
-                <p>Upcomming exams</p>
-                <p>Download you certificate</p>
-            </div>
-            <div class="footer-box useful">
-                <h3>Useful links</h3>
-                <a href="index.html" class="active">Home</a>
-                <a href="about.html">About</a>
-                <a href="project.html">Project</a>
-                <a href="contact.html">Contact</a>
-            </div>
-            <div class="footer-box">
-                <h3>contact</h3>
-                <p>makaut boys hostel, w.b</p>
-                <p>repldevelopment@gmail.com</p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.7987442923986!2d88.54100141479951!3d22.957637884985957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f8bf5871a9e0d7%3A0x3cbdf3b9f157e355!2sMAKAUT%20MAIN%20CAMPUS!5e0!3m2!1sen!2sin!4v1620180263784!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" class = map></iframe>
-            </div>
-            </div>
-            <div class="hr"><hr></div>
-            <div class="footer-link">
-            <div class="copy">copyright@2021 All rights reserved By: <span>R-E-P-L</span></div>
-            <div class="link">
-                <div class="social-icon">
-            <a href="#" class = "media-icon"><i class="fab fa-facebook-square" style="color:rgb(9, 101, 182)"></i></a>
-            <a href="#" class = "media-icon"><i class="fab fa-twitter-square" style="color:rgb(14, 242, 250)"></i></a>
-            <a href="#" class = "media-icon"><i class="fab fa-linkedin" style ="color:rgb(7, 77, 138)" ></i></a>
-            <a href="#" class = "media-icon"><i class="fab fa-github-square" style = "color:black"></i></a>
+      <div class="hr">
+        <hr>
+      </div>
+      <div class="footer-link">
+        <div class="copy">copyright@2021 All rights reserved By: <span>R-E-P-L</span></div>
+        <div class="link">
+          <div class="social-icon">
+            <a href="#" class="media-icon"><i class="fab fa-facebook-square" style="color:rgb(9, 101, 182)"></i></a>
+            <a href="#" class="media-icon"><i class="fab fa-twitter-square" style="color:rgb(14, 242, 250)"></i></a>
+            <a href="#" class="media-icon"><i class="fab fa-linkedin" style="color:rgb(7, 77, 138)"></i></a>
+            <a href="#" class="media-icon"><i class="fab fa-github-square" style="color:black"></i></a>
           </div>
-                <!-- <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
-            </div>
-            </div>
-        </footer>
-    </div>
-    
-    <script src="js/index.js"></script>
-  </body>
+          <!-- <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/index.js"></script>
+</body>
+
 </html>
